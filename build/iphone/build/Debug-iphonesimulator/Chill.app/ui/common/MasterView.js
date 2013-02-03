@@ -1,1 +1,0 @@
-/Users/Jon/Development/Chill/Resources/ui/common/MasterView.js

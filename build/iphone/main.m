@@ -7,14 +7,14 @@
 #define _QUOTEME(x) #x
 #define STRING(x) _QUOTEME(x)
 
-NSString * const TI_APPLICATION_DEPLOYTYPE = @"development";
-NSString * const TI_APPLICATION_ID = @"chill";
+NSString * const TI_APPLICATION_DEPLOYTYPE = @"production";
+NSString * const TI_APPLICATION_ID = @"com.trychill.app";
 NSString * const TI_APPLICATION_PUBLISHER = @"Jon";
-NSString * const TI_APPLICATION_URL = @"http://chill.herokuapp.com";
+NSString * const TI_APPLICATION_URL = @"http://trychill.com";
 NSString * const TI_APPLICATION_NAME = @"Chill";
-NSString * const TI_APPLICATION_VERSION = @"1.0";
-NSString * const TI_APPLICATION_DESCRIPTION = @"not specified";
-NSString * const TI_APPLICATION_COPYRIGHT = @"2013 by Jon";
+NSString * const TI_APPLICATION_VERSION = @"0.1";
+NSString * const TI_APPLICATION_DESCRIPTION = @"Let's Chill";
+NSString * const TI_APPLICATION_COPYRIGHT = @"2013";
 NSString * const TI_APPLICATION_GUID = @"45eaf1fe-90f0-4481-8ef2-ad6c750ad08c";
 BOOL const TI_APPLICATION_ANALYTICS = true;
 

@@ -14,20 +14,24 @@ function ApplicationWindow() {
 		
 	var createEventButton = Titanium.UI.createButton({
         title: 'Create',
+        systemButton: Titanium.UI.iPhone.SystemButton.ADD,
         style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN 
     });
     
+    /*
     var accountSettingsButton = Titanium.UI.createButton({
         title: 'Settings',
         style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN 
     });
-		
+	*/
+	
 	//create master view container
 	var masterContainerWindow = Ti.UI.createWindow({
-		title:'Chill'
+		title:'Chill',
+		barColor: '#4bb06a'
 	});
 	
-	masterContainerWindow.setLeftNavButton(accountSettingsButton);
+	//masterContainerWindow.setLeftNavButton(accountSettingsButton);
 	masterContainerWindow.setRightNavButton(createEventButton);
 	masterContainerWindow.add(masterView);
 	
@@ -37,16 +41,19 @@ function ApplicationWindow() {
         style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN 
     });
 	
+	/*
 	var accountSettingsModal = Ti.UI.createWindow({
 		title: 'Account Settings',
 		backgroundColor: '#ffffff'
 	});
+	*/
 	
-	accountSettingsModal.setRightNavButton(closeAccountSettingsButton);
+	//accountSettingsModal.setRightNavButton(closeAccountSettingsButton);
 	
 	//create detail view container
 	var detailContainerWindow = Ti.UI.createWindow({
-		title:'Product Details'
+		title:'The Deets',
+		barColor: '#4bb06a'
 	});
 	detailContainerWindow.add(detailView);
 	
@@ -66,11 +73,13 @@ function ApplicationWindow() {
 		masterView.fireEvent('scrollToCreateEvent',e);
 	});
 	
+	/*
 	accountSettingsButton.addEventListener('click', function(e) {
 		accountSettingsModal.open({
 			modal:true
 		}); 
 	});
+	*/
 	
 	closeAccountSettingsButton.addEventListener('click', function(e) {
 		accountSettingsModal.close(); 

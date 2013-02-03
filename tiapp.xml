@@ -11,13 +11,13 @@
         <target device="blackberry">false</target>
     </deployment-targets>
     <sdk-version>3.0.0.GA</sdk-version>
-    <id>chill</id>
+    <id>com.trychill.app</id>
     <name>Chill</name>
-    <version>1.0</version>
+    <version>0.1</version>
     <publisher>Jon</publisher>
-    <url>http://chill.herokuapp.com</url>
-    <description>not specified</description>
-    <copyright>2013 by Jon</copyright>
+    <url>http://trychill.com</url>
+    <description>Let's Chill</description>
+    <copyright>2013</copyright>
     <icon>appicon.png</icon>
     <persistent-wifi>false</persistent-wifi>
     <prerendered-icon>true</prerendered-icon>
@@ -33,4 +33,5 @@
             <orientation>Ti.UI.PORTRAIT</orientation>
         </orientations>
     </iphone>
+    <property name="ti.facebook.appid">127585394079253</property>
 </ti:app>

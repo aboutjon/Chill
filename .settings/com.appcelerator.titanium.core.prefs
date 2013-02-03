@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+provisioning_profiles/distribution/E123E542-F0F6-49DC-BF00-A46ACDB0F362/appid=*
+provisioning_profiles/distribution/E123E542-F0F6-49DC-BF00-A46ACDB0F362/filepath=/Users/Jon/Library/MobileDevice/Provisioning Profiles/E123E542-F0F6-49DC-BF00-A46ACDB0F362.mobileprovision
+provisioning_profiles/distribution/E123E542-F0F6-49DC-BF00-A46ACDB0F362/name=iOS Team Provisioning Profile\: *
+provisioning_profiles/distribution/E123E542-F0F6-49DC-BF00-A46ACDB0F362/uuid=E123E542-F0F6-49DC-BF00-A46ACDB0F362
+provisioning_profiles/distribution/FB4E5CFD-B955-4372-BDA5-9057BE7CE259/appid=*
+provisioning_profiles/distribution/FB4E5CFD-B955-4372-BDA5-9057BE7CE259/filepath=/Users/Jon/Library/MobileDevice/Provisioning Profiles/FB4E5CFD-B955-4372-BDA5-9057BE7CE259.mobileprovision
+provisioning_profiles/distribution/FB4E5CFD-B955-4372-BDA5-9057BE7CE259/name=TestFlight
+provisioning_profiles/distribution/FB4E5CFD-B955-4372-BDA5-9057BE7CE259/uuid=FB4E5CFD-B955-4372-BDA5-9057BE7CE259

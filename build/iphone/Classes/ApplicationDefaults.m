@@ -15,6 +15,7 @@
     NSMutableDictionary * _property = [[NSMutableDictionary alloc] init];
 
     [_property setObject:[TiUtils stringValue:@"system"] forKey:@"ti.ui.defaultunit"];
+    [_property setObject:[TiUtils stringValue:@"127585394079253"] forKey:@"ti.facebook.appid"];
 
     return _property;
 }
